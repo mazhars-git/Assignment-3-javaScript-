@@ -1,4 +1,4 @@
-//link
+//https://github.com/mazhars-git/Assignment-3-javaScript-
 
 //Problem solving: (1) kilometerToMeter.
 
@@ -6,8 +6,8 @@ function kilometerToMeter(kilo) {
     var meter = kilo * 1000;
     return meter;
 }
-var result = kilometerToMeter(6);
-//console.log(result); 
+/*var result = kilometerToMeter(6);
+console.log(result);*/ 
 
 //Problem solving: (2) budgetCalculator.
 
@@ -18,8 +18,8 @@ function budgetCalculator(clock, mobile, laptop) {
     var totalbudget = clockPrice + mobilePrice + laptopPrice;
     return totalbudget;
 }
-var result = budgetCalculator(2, 3, 5);
-//console.log(result);
+/*var result = budgetCalculator(2, 3, 5);
+console.log(result);*/
 
 //Problem solving: (3) hotelCost.
 
@@ -44,11 +44,10 @@ function hotelCost(DaysOfResidence) {
     return hotelCost;
 
 }
-var totalCost = hotelCost(25);
-//console.log(totalCost);
+/*var totalCost = hotelCost(25);
+console.log(totalCost);*/
 
 //Problem solving: (4) megaFriend.
-
 function megaFriend(friends) {
     var largestName = friends[0];
     for (var i = 0; i < friends.length; i++) {
@@ -60,5 +59,5 @@ function megaFriend(friends) {
     return largestName;
 }
 
-var result = megaFriend(['Milu', 'Nil', 'Jamil Mia', 'Atikul Islam Atik', 'Faqrul Islam']);
-//console.log(result);
+/*var result = megaFriend(['Milu', 'Nil', 'Jamil Mia', 'Atikul Islam Atik', 'Faqrul Islam']);
+console.log(result);*/
